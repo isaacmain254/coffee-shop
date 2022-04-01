@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    text-align: center;
+    background: rgb(128, 70, 27);
+    width: 85%;
+    color: #fff;
+    margin: 25px auto 25px;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu h1 {
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+.menu p {
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 27px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.drink {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 20px;
+    align-items: center;
+    border: 1px solid 1e90ff;
+    margin: 30px auto 30px;
+}
+/* center grid items */ 

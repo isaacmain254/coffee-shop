@@ -1,0 +1,104 @@
+.home {
+    width: 100%;
+    height: 80vh;
+    background-image: url(/public/images/coffee4.jpg);
+    /* background-position: right bottom, left top; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-content {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    /* border: 1px solid #1e90Ff; */
+    margin: 0px auto 0px ;
+    line-height: 50px;
+
+}
+.left-content {
+    width: 65%;
+    margin: 0px 20px 0px;
+
+}
+/* .right-content {
+    width: 40%;
+} */
+.right-content img {
+    width: 500px;
+    height: 450px;
+    /* object-fit: cover; */
+}
+.left-content p {
+    color: #fff;;
+}
+.first-p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+
+}
+.first-p span {
+    color: red;
+}
+.second-p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+.third-p, .fourth-p {
+    font-size: 20px;
+    font-style: italic;
+}
+.left-content button {
+    padding: 9px 25px;
+    background: red;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 25px;
+}
+.left-content button:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1100px) {
+    .right-content img {
+        width: 250px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:800px) {
+    .home-content {
+        width: 100%;
+    }
+    .first-p {
+        font-size: 33px;
+    }
+    .second-p {
+        font-size: 27px;
+    }
+}
+@media screen and (max-width:680px) {
+    .first-p {
+        font-size: 25px;
+
+    }
+    .second-p {
+        font-size: 22px;
+    }
+    .third-p, .fourth-p {
+        font-size: 16px;
+    }
+    .right-content img {
+        width: 150px;
+        height: 250px;
+        border: none;
+    }
+}
+@media screen and (max-width:450px) {
+    .left-content {
+        line-height: 29px;
+    }
+}
