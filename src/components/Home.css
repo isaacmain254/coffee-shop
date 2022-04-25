@@ -48,16 +48,15 @@
   font-size: 20px;
   font-style: italic;
 }
-.left-content button {
-  padding: 9px 25px;
+.order {
+  padding: 0px 20px;
   background: red;
   border: none;
-  font-size: 18px;
   color: #fff;
   text-align: center;
   border-radius: 25px;
 }
-.left-content button:hover {
+.order:hover {
   transform: scale(1.1);
 }
 
