@@ -1,7 +1,7 @@
 .about-content {
   color: #fff;
   width: 60%;
-  margin: 30px auto 30px;
+  margin: 30px auto 50px;
   align-items: center;
   justify-content: center;
 }
@@ -48,6 +48,9 @@
 .about-body p:last-child {
   padding: 30px 0px 30px;
   font-size: 23px;
+}
+.about-body p:last-child:hover {
+  color: #00bfff;
 }
 @media screen and (max-width: 1120px) {
   .about-content {

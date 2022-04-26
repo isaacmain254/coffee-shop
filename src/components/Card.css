@@ -35,6 +35,9 @@
   font-size: 17px;
   color: #00bfff;
 }
+.left-about a:hover {
+  color: #1e90ff;
+}
 
 .right-about {
   width: 40%;
