@@ -8,7 +8,11 @@ const Home = () => {
           <p className="first-p">
             What's life Without <span>coffee?</span>
           </p>
+
           <p className="second-p">Welcome!</p>
+          <p className="fifth">
+            A cup of coffee can completely change your day!!
+          </p>
           <p className="third-p">We serve the richest coffee in the city!</p>
           <p className="fourth-p">
             High quality in every cup of coffee that we serve ...

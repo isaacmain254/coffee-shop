@@ -44,7 +44,8 @@
   font-weight: 600;
 }
 .third-p,
-.fourth-p {
+.fourth-p,
+.fifth {
   font-size: 20px;
   font-style: italic;
 }
@@ -80,6 +81,13 @@
 @media screen and (max-width: 680px) {
   .home-content {
     width: 80%;
+  }
+  .right-content {
+    display: none;
+  }
+  .left-content {
+    width: 100%;
+    margin: 30px 0px 0px;
   }
   .first-p {
     font-size: 25px;

@@ -49,80 +49,6 @@
   padding: 30px 0px 30px;
   font-size: 23px;
 }
-
-/* about container */
-/* .about-container {
-  width: 800px;
-  height: 370px;
-  margin: 30px auto 45px;
-  display: flex;
-  border-radius: 15px;
-}
-.left-about {
-  width: 60%;
-  border-radius: 15px 0px 0px 15px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(23, 179, 210, 1) 0%,
-    rgba(146, 243, 6, 1) 0%,
-    rgba(185, 124, 60, 0.8631827731092436) 0%,
-    rgba(171, 99, 21, 1) 0%,
-    rgba(168, 101, 0, 1) 40%,
-    rgba(154, 92, 5, 1) 100%
-  );
-  object-fit: contain;
-  padding: 25px 30px 20px;
-}
-.left-about p:first-child {
-  font-size: 45px;
-  font-weight: 700;
-  padding-bottom: 25px;
-}
-.left-about p:nth-child(2) {
-  font-size: 19px;
-  font-weight: 600;
-  padding-bottom: 25px;
-}
-.left-about p:nth-child(3) {
-  font-size: 17px;
-  line-height: 27px;
-  padding-bottom: 30px;
-}
-.left-about p:last-child {
-  font-size: 20px;
-  font-weight: 600;
-  bottom: 0;
-  align-items: center;
-}
-.left-about a {
-  text-decoration: none;
-  color: #fff;
-}
-.left-about a:hover {
-  color: #00d0df;
-  transition: all 0.3s ease-in-out;
-}
-.right-about {
-  width: 40%;
-  border-radius: 0px 15px 15px 0px;
-  padding: 20px 30px;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,213,255,1) 0%, rgba(146,243,6,1) 0%, rgba(185,124,60,0.8631827731092436) 0%, rgba(171,99,21,1) 0%, rgba(50,135,121,1) 0%, rgba(35,148,76,1) 100%);
-}
-.right-about h3 {
-  font-weight: 700;
-  font-size: 30px;
-  text-decoration: underline;
-  padding-bottom: 26px;
-}
-.right-about p {
-  font-size: 17px;
-}
-.right-about p:last-child {
-  padding-top: 25px;
-} */
 @media screen and (max-width: 1120px) {
   .about-content {
     width: 80%;
@@ -154,7 +80,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,213,255,1) 0%, rgba
     font-size: 21px;
   }
   .about-container {
-      width: 750px;
-      margin: auto;
+    width: 750px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .about-content {
+    width: 100%;
   }
 }
