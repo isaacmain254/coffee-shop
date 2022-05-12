@@ -14,7 +14,7 @@
   top: 0;
   z-index: 999;
   color: #fff;
-  background-image: url(/public/images/coffee4.jpg);
+  background-image: url(../Assets/coffee4.jpg);
   /* padding: 0px 50px 0px; */
   transition: all 0.5s ease-in-out;
   cursor: pointer;
@@ -53,7 +53,7 @@
 }
 
 /* Responive navbar */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 710px) {
   .navbar {
     padding: 0;
   }
@@ -64,9 +64,6 @@
   }
   .menu-item {
     font-size: 23px;
-  }
-  .menu-list {
-    display: none;
   }
   .menu-list {
     flex-direction: column;

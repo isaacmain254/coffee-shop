@@ -4,7 +4,7 @@ import "./Drink.css";
 const Drink = ({ drink }) => (
   <div className="card-item">
     <div className="card-content">
-      <img src={drink.image} alt="coffeeimage" />
+      <img src={require("../Assets" + drink.image)} alt="coffeeimage" />
       <p className="price">${drink.price}</p>
       <h2>{drink.name}</h2>
       <p>

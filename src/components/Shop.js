@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
 import "./Shop.css";
+import coffee6 from "../Assets/coffee6-nobg.png";
 
 const Shop = () => {
   return (
@@ -18,7 +19,7 @@ const Shop = () => {
           </p>
         </div>
         <div className="shop-right">
-          <img src="images/coffee6-nobg.png" alt="coffee" />
+          <img src={coffee6} alt="coffee" />
         </div>
       </div>
       <p className="shop-now">

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import coffee7 from "../Assets/coffee7-nobg.png";
 const Home = () => {
   return (
     <div className="home" id="home">
@@ -20,7 +21,7 @@ const Home = () => {
           <button className="order">Order Now</button>
         </div>
         <div className="right-content">
-          <img src="images/coffee7-nobg.png" alt="coffee cup" />
+          <img src={coffee7} alt="coffee cup" />
         </div>
       </div>
     </div>
