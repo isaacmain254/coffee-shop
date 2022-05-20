@@ -92,5 +92,6 @@
   }
   .menu-list {
     padding-right: 50px;
+    display: none;
   }
 }
