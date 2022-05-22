@@ -1,40 +1,80 @@
-import React from 'react';
-import { useState } from 'react';
+import React from "react";
+import { useState } from "react";
 import { BiCoffeeTogo } from "react-icons/bi";
-import './Navbar.css'
+import "./Navbar.css";
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
     setClicked(!clicked);
-  }
+  };
   const closeMobileMenu = () => setClicked(false);
   return (
     <nav className="navbar">
-      <div className="logo" >
-        <h1><BiCoffeeTogo style={{ color: '#5c4033' }} /><a href='#home'onClick={closeMobileMenu}>CoffeeShop</a></h1>
+      <div className="logo">
+        <h1>
+          <BiCoffeeTogo style={{ color: "#5c4033" }} />
+          <a href="#home" onClick={closeMobileMenu}>
+            CoffeeShop
+          </a>
+        </h1>
       </div>
       <div className="menu-icon" onClick={handleClick}>
-        <i className={clicked ? "fas fa-times" : "fas fa-bars"} ></i>
+        <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
       <ul className={clicked ? "menu-list active" : "menu-list"}>
         <li>
-          <a href="#home" className="menu-item " onClick={closeMobileMenu}>Home</a>
+          <a
+            href="#home"
+            className="menu-item "
+            onClick={closeMobileMenu}
+            title="Coffeeshop"
+          >
+            Home
+          </a>
         </li>
         <li>
-          <a href="#menu" className="menu-item " onClick={closeMobileMenu}>Our Menu</a>
+          <a
+            href="#menu"
+            className="menu-item "
+            onClick={closeMobileMenu}
+            title="Coffeeshop"
+          >
+            Our Menu
+          </a>
         </li>
         <li>
-          <a href="#about" className="menu-item " onClick={closeMobileMenu}>About</a>
+          <a
+            href="#about"
+            className="menu-item "
+            onClick={closeMobileMenu}
+            title="Coffeeshop"
+          >
+            About
+          </a>
         </li>
         <li>
-          <a href="#contact" className="menu-item " onClick={closeMobileMenu} >Contact</a>
+          <a
+            href="#contact"
+            className="menu-item "
+            onClick={closeMobileMenu}
+            title="Coffeeshop"
+          >
+            Contact
+          </a>
         </li>
         <li>
-          <a href="#shop" className="menu-item " onClick={closeMobileMenu}>Shop</a>
+          <a
+            href="#shop"
+            className="menu-item "
+            onClick={closeMobileMenu}
+            title="Coffeeshop"
+          >
+            Shop
+          </a>
         </li>
       </ul>
-    </nav >
-  )
-}
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;

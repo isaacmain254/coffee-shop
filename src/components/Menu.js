@@ -14,7 +14,7 @@ const Menu = () => {
         minus optio voluptatem ratione natus fugit.
       </p>
       <p>
-        <a href="/drinks">
+        <a href="/drinks" title="coffee flavours">
           All Drinks
           <FaAngleRight />
         </a>

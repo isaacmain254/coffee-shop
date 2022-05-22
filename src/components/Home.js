@@ -21,7 +21,7 @@ const Home = () => {
           <button className="order">Order Now</button>
         </div>
         <div className="right-content">
-          <img src={coffee7} alt="coffee cup" />
+          <img src={coffee7} alt="Cup of coffee at CoffeeShop" />
         </div>
       </div>
     </div>

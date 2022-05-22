@@ -23,7 +23,7 @@ const Shop = () => {
         </div>
       </div>
       <p className="shop-now">
-        <a href="/shop">
+        <a href="/shop" title="Coffeeshop raw coffee">
           More Coffee
           <FaAngleRight />
         </a>
